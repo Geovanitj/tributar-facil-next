@@ -6,10 +6,7 @@ import Link from 'next/link'
 export default function Header() {
     return (
         
-        <div className={style.header}>
-           
-               <img src="../../img/logo1.png" alt="logo" />
-          
+        <div className={style.header}>         
             
             <ul className={style.menu}>
                 <li>
