@@ -5,8 +5,7 @@ import Link from 'next/link'
 
 export default function Header() {
     return (
-        
-        <div className={style.header}>         
+           <div className={style.header}>         
             
             <ul className={style.menu}>
                 <li>
@@ -26,5 +25,6 @@ export default function Header() {
                 </li>
             </ul>
         </div>
+       
     )
 }
