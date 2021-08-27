@@ -1,4 +1,4 @@
-import Header from "../src/components/header/Header"
+import Header from "../src/components/header/header"
 import Input from "../src/components/input/input"
 
 export default function NCM() {
