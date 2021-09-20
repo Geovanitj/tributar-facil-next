@@ -1,7 +1,5 @@
 import style from './style.module.css'
 
-import logo from '../../img/logo.png'
-
 import Link from 'next/link'
 
 
