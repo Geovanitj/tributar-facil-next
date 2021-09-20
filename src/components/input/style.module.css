@@ -1,11 +1,23 @@
 .input {
-    margin-top: 550px;
-    margin-left: 700px;
-    width: 500px;
-    height: 40px;
-    border: 1px solid rgb(255, 255, 255) ;
-    border-radius: 4px;
-    color: white;
-    font-size: 25px;
-    background-color: rgba(0, 0, 0, 0);
+  background: #ffffff;
+  display: flex;
+  border: 1px solid #797979;
+  border-radius: 15px;
+  height: 44px;
+  margin-top: 200px;
+  padding: 16px 16px;
+  font-size: 20px;
+  height: 44px;
+  width: 400px;
+  color: #8761bd;
+}
+
+.input:focus { 
+  outline: none !important;
+  border-color: #719ECE;
+  box-shadow: 0 0 10px #719ECE;
+}
+
+.input::placeholder {
+  color: rgb(146, 145, 145);
 }

@@ -1,33 +1,47 @@
+.menu {
+  display: flex;
+  justify-content: flex-end;
+  flex-wrap: wrap;
+  font-family: "Comfortaa", cursive;
+  background: transparent;
+  padding: 20px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 8px rgba(0, 0, 0, 0.23);
+  border-radius: 20px;
+  border: 1px solid white;
+  width: 90max;
+  margin-top: 20px;
+}
+
+.menu li {
+  margin: 10px;
+  list-style: none;
+}
+
+.menu li a {
+  padding: 10px;
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+}
+
 .header {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    transition: 0.6s;
-    padding: 20px 100px;
-    z-index: 100000;
-    background: rgb(0 0 0 / 38%);
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  transition: 0.6s;
+  padding: 20px;
+  z-index: 100000;
+  background: rgb(0 0 0 / 38%);
+  border-radius: 20px;
+  border: 1px solid white;
+  margin-top: 4px;
 }
 
-.menu{
-    display: flex;
-    border: 1px solid white;
-    border-radius: 10px;
-    font-family: 'Comfortaa', cursive;
-    margin-top: 20px;
-}
-
-.menu li{
-    margin: 10px;
-}
-
-.menu li a{
-    padding: 10px;
-}
-
-.menu ul{
-    justify-content: center;
+.header h1 {
+  display: flex;
+  align-items: center;
+  color: white;
+  font-size: 40px;
+  font-family: "Comfortaa", cursive;
 }

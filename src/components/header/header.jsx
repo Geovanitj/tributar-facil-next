@@ -1,13 +1,16 @@
 import style from './style.module.css'
 
+import logo from '../../img/logo.png'
+
 import Link from 'next/link'
 
 
 export default function Header() {
     return (
-           <div className={style.header}>         
-            
-            <ul className={style.menu}>
+
+        <div className={style.header}>
+            <h1>Tributar Fácil</h1>
+            <ul className={style.menu} >
                 <li>
                     <Link href="/cfop">
                         <a>CFOP</a>
@@ -25,6 +28,6 @@ export default function Header() {
                 </li>
             </ul>
         </div>
-       
     )
 }
+
